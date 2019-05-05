@@ -5,7 +5,7 @@ export class Table extends React.Component{
     render(){
         const rows = this.props.teams.map((team) => (
             <tr key={team._id}>
-                <th><h5><strong>{team.name}</strong></h5></th>
+                <th><strong>{team.name}</strong></th>
             </tr>
         ))
         return (

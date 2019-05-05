@@ -10,7 +10,7 @@ class App extends React.Component{
   constructor(props){
     super(props);
     this.state = {
-      gender : 0,
+      gender : 1,
       admin : false,
       selectedTeamsA : [],
       selectedTeamsB : []

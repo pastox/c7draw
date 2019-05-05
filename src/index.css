@@ -22,6 +22,7 @@ code {
   text-align: center;
   background-color: #0A700F;
   height : 100vh;
+  font-size : 40px;
 }
 
 .App-header {
@@ -51,9 +52,9 @@ code {
 }
 
 tr, th {
-  height : 5vh;
+  height : 7vh;
   color : yellow;
-  font-size : 80%;
+  font-size : 40px;
 }
 
 .container{
@@ -78,4 +79,9 @@ button {
 .select{
   display : flex;
   justify-content: space-around;
+}
+
+footer{
+  display: flex;
+  justify-content:  space-around;
 }
